@@ -1,0 +1,10 @@
+﻿double lado = 5;
+double lado1 = 5;
+double lado2 = 5;
+double altura = 10;
+double perimetro = Application.Figura261E04.Perimetro(lado);
+double area = Application.Figura261E04.Area(lado1, lado2);
+double volumen = Application.Figura261E04.Volumen(area, altura);
+Console.WriteLine($"El perímetro de la base de un Rombo de {lado}cm por lado es {perimetro}cm");
+Console.WriteLine($"El área de la base de un Rombo de {lado}cm por lado es {area}cm2");
+Console.WriteLine($"El volumen un Rombo con un área de {area}cm2 y {altura}cm de altura es {volumen}cm3");
